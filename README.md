@@ -12,7 +12,7 @@ npm install @jadex/snowpack-plugin-tailwindcss-jit --save-dev
 
 
 
-```json
+```js
 /* snowpack.config.js */
 
 module.exports = {
