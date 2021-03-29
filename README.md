@@ -1,5 +1,10 @@
 # @jadex/snowpack-plugin-tailwindcss-jit
 
+![MIT License](https://img.shields.io/github/license/jadex/snowpack-plugin-tailwindcss-jit)
+[![NPM version](https://img.shields.io/npm/v/@jadex/snowpack-plugin-tailwindcss-jit)](https://www.npmjs.com/package/@jadex/snowpack-plugin-tailwindcss-jit)
+[![NPM downloads](https://img.shields.io/npm/dt/@jadex/snowpack-plugin-tailwindcss-jit)](https://www.npmjs.com/package/@jadex/snowpack-plugin-tailwindcss-jit)
+[![Node.js Package](https://github.com/jadex/snowpack-plugin-tailwindcss-jit/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/JadeX/snowpack-plugin-tailwindcss-jit/actions/workflows/npm-publish.yml)
+
 This is a simple drag & drop [Snowpack](https://www.snowpack.dev/tutorials/quick-start) plugin that enables  [TailwindCSS JIT](https://github.com/tailwindlabs/tailwindcss-jit#readme) to work with `snowpack dev` & `snowpack build --watch`.
 
 ## Installation
