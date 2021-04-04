@@ -14,7 +14,9 @@ module.exports = (snowpackConfig, pluginOptions) => {
       output: [".css"],
     },
     onChange({ filePath }) {
-      if (!micromatch.isMatch(filePath, tailwindConfig.purge.content ?? tailwindConfig.purge)) {
+      let relativePath = path.relative(process.cwd(), filePath);
+
+      if (!micromatch.isMatch(relativePath, tailwindConfig.purge.content ?? tailwindConfig.purge)) {
         return;
       }
 

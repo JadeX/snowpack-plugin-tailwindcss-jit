@@ -1,7 +1,7 @@
 {
   "name": "@jadex/snowpack-plugin-tailwindcss-jit",
   "description": "Snowpack plugin to watch template files and enable on-demand TailwindCSS JIT compilation for development",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Xeevis",
   "homepage": "https://github.com/jadex/snowpack-plugin-tailwindcss-jit/tree/master#readme",
   "license": "MIT",
