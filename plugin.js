@@ -15,8 +15,11 @@ module.exports = (snowpackConfig, pluginOptions) => {
     },
     onChange({ filePath }) {
       let relativePath = path.relative(process.cwd(), filePath);
+      let purge = tailwindConfig.purge.content !== null && tailwindConfig.purge.content !== void 0
+        ? tailwindConfig.purge.content
+        : tailwindConfig.purge;
 
-      if (!micromatch.isMatch(relativePath, tailwindConfig.purge.content ?? tailwindConfig.purge)) {
+      if (!micromatch.isMatch(relativePath, purge)) {
         return;
       }
 
