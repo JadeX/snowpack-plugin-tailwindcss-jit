@@ -1,3 +1,9 @@
+<h1 align="center">⚠ Deprecation notice ⚠</h1>
+<h2 align="center">
+  You no longer need to use this plugin. TailwindCSS JIT is now officially supported by the latest Snowpack out of the box ♥.
+  https://github.com/tailwindlabs/tailwindcss/issues/3950#issuecomment-846967828
+</h2>
+
 # @jadex/snowpack-plugin-tailwindcss-jit
 
 ![MIT License](https://img.shields.io/github/license/jadex/snowpack-plugin-tailwindcss-jit)
